@@ -1,0 +1,40 @@
+PUSH 12
+# 12
+PRINT
+
+DEFINE a 3
+PUSH a
+# 12 3
+PUSH a
+# 12 3 3
+PRINT
+
++
+# 12 6
+PRINT
+
+/
+# 2
+PRINT
+
+PUSH 0
+# 2 0
+/
+# 2 0
+PRINT
+
++
+# 2
+PRINT
+
+BadCommand
+
+PUSH 23207
+# 2 23207
++
+# 23209
+print
+
+POP
+#
+PRINT
